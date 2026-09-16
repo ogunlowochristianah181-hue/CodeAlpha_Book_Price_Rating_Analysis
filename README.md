@@ -141,8 +141,8 @@ All 1,000 books in the dataset were listed as **in stock**.
 ## Project Structure
 
 ```text
-Web_Scraping_EDA_Project/
-
+CodeAlpha_Book_Price_Rating_Analysis/
+│
 ├── data/
 │   └── books_dataset.csv
 │
@@ -175,6 +175,8 @@ python scraper.py
 python analysis.py
 
 ### Conclusion
+
+## Conclusion
 
 This project demonstrates how Python can be used to collect, clean, analyze, and visualize data from a website.
 
