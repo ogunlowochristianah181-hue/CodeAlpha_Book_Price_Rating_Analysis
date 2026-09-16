@@ -128,21 +128,21 @@ All 1,000 books in the dataset were listed as **in stock**.
 
 ### 1. Book Price Distribution
 
-![Book Price Distribution](images/price_distribution.png)
+[Book Price Distribution](images/price_distribution.png)
 
 ### 2. Book Rating Distribution
 
-![Book Rating Distribution](images/rating_distribution.png)
+[Book Rating Distribution](images/rating_distribution.png)
 
 ### 3. Price vs Rating
 
-![Price vs Rating](images/price_vs_rating.png)
+[Price vs Rating](images/price_vs_rating.png)
 
 ## Project Structure
 
 ```text
 Web_Scraping_EDA_Project/
-│
+
 ├── data/
 │   └── books_dataset.csv
 │
@@ -150,6 +150,9 @@ Web_Scraping_EDA_Project/
 │   ├── price_distribution.png
 │   ├── rating_distribution.png
 │   └── price_vs_rating.png
+│
+├── notebooks/
+│   └── analysis.ipynb
 │
 ├── scraper.py
 ├── analysis.py
@@ -163,7 +166,7 @@ Web_Scraping_EDA_Project/
 
 pip install -r requirements.txt
 
-### Run the web scrapper
+### Run the web scraper
 
 python scraper.py
 
@@ -175,7 +178,9 @@ python analysis.py
 
 This project demonstrates how Python can be used to collect, clean, analyze, and visualize data from a website.
 
-Through this project, I gained practical experience in web scraping, data preparation, exploratory data analysis, correlation analysis, and data visualization.
+Through this project, I gained practical experience in web scraping, data preparation, exploratory data analysis, correlation analysis, and data visualization. The project also strengthened my ability to turn raw web data into meaningful insights and communicate findings through visualizations.
+
+Because the Books to Scrape website uses randomly assigned prices and ratings, the findings are intended for demonstration and learning purposes rather than real-world market conclusions.
 
 ### Internship
 
